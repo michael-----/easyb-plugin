@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+	<id>org.easyb.easyb</id>
+	<name>EasyB 13</name>
+	<version>1.0</version>
+	<vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+	<description>easyb behavior driven development framework. This is the version for IDEA 13 as considerable parts of the openapi have changed</description>
+
+	<change-notes><![CDATA[
+      -- includes easyb-core 1.5 jar<br/>
+      ]]>
+	</change-notes>
+
+	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+	<idea-version since-build="133.193"/>
+
+	<depends>org.intellij.groovy</depends>
+
+	<application-components>
+	</application-components>
+	<project-components>
+	</project-components>
+
+	<actions>
+		<!-- Add your actions here -->
+	</actions>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<configurationType implementation="org.easyb.idea.runner.NewEasybConfigurationType"/>
+		<runConfigurationProducer implementation="org.easyb.idea.runner.NewEasybConfigurationProducer"/>
+		<defaultLiveTemplatesProvider implementation="org.easyb.idea.templates.EasybLiveTemplateProvider"/>
+	</extensions>
+</idea-plugin>

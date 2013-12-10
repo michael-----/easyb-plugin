@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.easyb:easyb-core:1.5" type="repository">
+    <properties maven-id="org.easyb:easyb-core:1.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/easyb/easyb-core/1.5/easyb-core-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/1.7.10/groovy-all-1.7.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ant/ant/1.6.5/ant-1.6.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
